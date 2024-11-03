@@ -1,0 +1,4 @@
+[2024-10-18T00:38:11.289+0000] {processor.py:161} INFO - Started process (PID=257) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-10-18T00:38:21.284+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-10-18T00:38:22.816+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:38:22.814+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-10-18T00:42:16.735+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:42:16.735+0000] {timeout.py:68} ERROR - Process timed out, PID: 257

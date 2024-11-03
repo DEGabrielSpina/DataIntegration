@@ -1,0 +1,12 @@
+[2024-10-18T00:01:25.766+0000] {processor.py:161} INFO - Started process (PID=164) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-10-18T00:01:25.775+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-18T00:01:25.779+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:01:25.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-10-18T00:01:25.821+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-10-18T00:02:03.317+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:02:02.693+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_complex
+[2024-10-18T00:02:07.533+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:02:07.532+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-10-18T00:03:04.816+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:02:55.028+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-10-18T00:03:08.607+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:03:08.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-18T00:46:09.217+0000] {processor.py:161} INFO - Started process (PID=262) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-10-18T00:46:14.460+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-18T00:46:15.903+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:46:15.466+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-10-18T00:48:31.164+0000] {logging_mixin.py:188} INFO - [2024-10-18T00:47:11.012+0000] {timeout.py:68} ERROR - Process timed out, PID: 262

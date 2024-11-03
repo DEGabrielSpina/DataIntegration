@@ -1,0 +1,11 @@
+[2024-10-17T23:57:11.878+0000] {processor.py:161} INFO - Started process (PID=120) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-17T23:57:12.001+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-10-17T23:57:12.005+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:12.004+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-17T23:57:12.048+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-17T23:57:20.348+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:20.346+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2024-10-17T23:57:26.389+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:26.387+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2024-10-17T23:57:29.593+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:29.592+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2024-10-17T23:57:29.594+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:29.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-17T23:57:31.412+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:31.411+0000] {dag.py:3118} INFO - Creating ORM DAG for example_sensor_decorator
+[2024-10-17T23:57:31.422+0000] {logging_mixin.py:188} INFO - [2024-10-17T23:57:31.422+0000] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-10-17T23:57:34.119+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 22.595 seconds
